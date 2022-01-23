@@ -1,4 +1,4 @@
-from .brain.cerebral import CerebralCortex
+from brain.cerebral import CerebralCortex
 
 class ChatBot():
     def __init__(self, frontal_junct="chat"):
@@ -34,3 +34,6 @@ class ChatBot():
     def change_mode(self, frontal_junct):
         """Changes the frontal_junct variable in the frontal lobe"""
         self.__brain.frontal_lobe.adaptive_memory(frontal_junct)
+
+a = ChatBot()
+print(a.text_recognition("Hi"))

@@ -8,28 +8,17 @@ from nltk.tokenize import word_tokenize
 
 class FrontalLobe:
     def __init__(self):
-        self.__wernicke_area = WordNetLemmatizer()
-        self.__frontal_junct = None
-        self.__labels = None
-        self.__all_keywords = None
-        self.__keywords = None
+        self.wernicke_area = WordNetLemmatizer()
+        self.frontal_junct = None
+        self.labels = None
+        self.all_keywords = None
+        self.keywords = None
         self.download_libraries()
 
     def download_libraries(self):
         """Downloads libraries used with NLTK"""
         nltk.download('averaged_perceptron_tagger')
         nltk.download("wordnet")
-
-    def recieve_memories(self, memory):
-        """Sets the local memory to memory values passed"""
-        self.__labels = memory[0]
-        self.__all_keywords = memory[1]
-
-    def adaptive_memory(self, frontal_junct):
-        """Returns the list of relevant labels for the specific keyword"""
-        if frontal_junct is not None:
-            self.__frontal_junct = frontal_junct
-            self.__keywords = self.__all_keywords[self.__frontal_junct]
     
     def to_bool(self, command):
         """Turns the command yes or no to its boolean form"""
@@ -40,25 +29,14 @@ class FrontalLobe:
         else:
             return command
 
-    def count_words(self, labels):
-        """Takes a dict of labels, returns the number of times each word is repeated in each key and total repeats across all keys"""
-        relevant_words = [words.keys() for words in labels.values()]
-        doc_freq = Counter(itertools.chain.from_iterable(map(set, relevant_words)))    
-        repeats_list = [[word] * int(times) for words in labels.values() for word, times in words.items()]
-        all_words = [word for words in repeats_list for word in words]
-        word_freq = dict(Counter(all_words))      
-
-        return doc_freq, word_freq
-
     def classify_importance(self):
         """Generates the weight for each word in each classifier in the classifier dictionary"""
-        relevant_labels = {label: words for label, words in self.__labels.items() if label in self.__keywords}
         doc_freq, word_freq = self.count_words(relevant_labels)
-        print(self.__keywords)
-        log_base = len(self.__keywords)
+        log_base = len(doc_freq)
         weights = {}
+        something = {}
 
-        for label, freq_table in relevant_labels.items():
+        for label, freq_table in something.items():
             label_entry = {}
             for word, freq in freq_table.items():
                 tf = math.log(1 + freq, 1 + sum(freq_table.values()))
@@ -113,9 +91,3 @@ class FrontalLobe:
             if tag == "NNP":
                 return word
         return None
-    
-    def get_labels(self):
-        return self.__labels
-
-    def get_all_keys(self):
-        return self.__all_keywords
