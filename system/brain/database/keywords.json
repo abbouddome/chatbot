@@ -1,0 +1,25 @@
+{
+    "bin": [
+        "yes",
+        "no"
+    ],
+    "chat": [
+        "play",
+        "name",
+        "rules",
+        "stop",
+        "weather",
+        "greet",
+        "parting",
+        "hobby",
+        "use",
+        "beat_y",
+        "beat_m"
+    ],
+    "game": [
+        "rules",
+        "cards",
+        "game",
+        "stop"
+    ]
+}

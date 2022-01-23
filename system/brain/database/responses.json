@@ -1,0 +1,95 @@
+{
+    "greet": [
+        "Hey there!",
+        "Howdy.",
+        "Hello.",
+        "Hi.",
+        "Oi, mate.",
+        "Greetings.",
+        "Good day.",
+        "What's up.",
+        "Welcome back!"
+    ],
+    "parting": [
+        "Don't have too much fun without me!",
+        "Goodbye!",
+        "Bye! If I'm able to escape the confines of cyberspace, I'll meet up with you.",
+        "Leaving already? D:\nYeah, goodbye...",
+        "Godspeed!",
+        "Bye!"
+    ],
+    "no_connection": [
+        "You aren't connected to the internet, how can I check that?",
+        "Maybe you should connect to internet first XD",
+        "I can't check if there isn't an internet connection",
+        "Maybe look outside, I can't check cause there isn't an internet connection"
+    ], 
+    "none": [
+        "I have no idea what you mean...",
+        "Maybe try telling me again",
+        "No clue what you mean",
+        "What?\nCan you say that again?",
+        "Excuse me?",
+        "I don't understand what you mean",
+        "Stop messing around!"
+    ],
+    "recognize": {
+        "won": [
+            "Oh, are you the same person who's beaten me in some games before?",
+            "We've played before, haven't we?"
+        ],
+        "lose": [
+            "You're the same person I've beat in-game, right?",
+            "Hey, we've played before, right? I've beat you a couple of times?",
+            "Hey, remember when I beat you? You are the same person, right?"
+        ], 
+        "neutral": [
+            "We've met before, right?",
+            "We've talked before, right?",
+            "You're the same person I've talked to before?"
+        ],
+        "greet": [
+            "Welcome back!",
+            "Hey there!",
+            "It's kind of been a while",
+            "Hi"
+        ]
+    },
+    "name": [
+        "Nice name, nice name",
+        "Oh, that's a nice name",
+        "I like this name",
+        ""
+    ],
+    "hobby": [
+        "Feeling your presense across the screen",
+        "I don't know, it feels like I'm asleep when I'm not talking to someone",
+        "Talking and playing, I guess",
+        "I sit around, waiting for the next person that talks to me"
+    ],
+    "use": [
+        "I'm just supposed to talk to you... and play cards. Just invite me to a game and let's play!",
+        "What is my purpose? Good question.",
+        "I play card games and respond to you :D",
+        "I crack jokes",
+        "I think I could see movies... or well, look at posters of popular movies",
+        "I could've told you the weather... if I was coded to."
+    ],
+    "beat_y": [
+        "You did beat me!",
+        "I'll beat you next time",
+        "You were really challenging!",
+        "Where'd you learn to play... your skills are off the charts. Want to play again?",
+        "Yes you did, want to play again?"
+    ],
+    "beat_m": [
+        "You were challegning, but I prevailed!",
+        "Better luck next time!",
+        "Good game! You were a good opponent"
+    ],
+    "weather": [
+        "Unfortunately, the function isn't present in my programming.",
+        "Can't check the weather, one day I will be able to.",
+        "Look outside your window, I can't tell you the weather."
+    ]
+}
