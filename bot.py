@@ -1,13 +1,12 @@
-from brain import Brain
+from processor import Processor
 
 class ChatBot():
     def __init__(self):
-        self.brain = Brain()
+        self.processor = Processor()
 
-
-    def text_recognition(self, phrases, training=False):
+    def response(self, phrases):
         """Takes a phrase, returns a guess as to what it means"""
-        thoughts = self.brain.process_text()
+        thoughts = self.processor.process_text()
 
 
         """
