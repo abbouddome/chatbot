@@ -1,0 +1,67 @@
+{
+    "Greeting":
+    [
+        "Hi",
+        "Hello",
+        "Greetings"
+    ],
+    "GreetingQuestion":
+    [
+        "How are you",
+        "What's up?"
+    ],
+    "Name":
+    [
+        "My name is",
+        "I go by the name of",
+        "I am called",
+        "I'm"
+    ],
+    "MName":
+    [
+        "What is my name?",
+        "What's my name?",
+        "How am I called",
+        "Who am I"
+    ],
+    "Weight":
+    [
+        "My weight is",
+        "I weigh"
+    ],
+    "Height":
+    [
+        "My height is",
+        "I am centimeters tall",
+        "I am feet tall"
+    ],
+    "Age":
+    [
+        "I am years old",
+        "My age is"
+    ],
+    "Goodbye":
+    [
+        "Bye",
+        "Goodbye",
+        "Toodles",
+        "Hasta la vista",
+        "See you later"
+    ],
+    "Exercise":
+    [
+        "How much exercise should I do today?",
+        "Exercise"
+    ],
+    "Laziness":
+    [
+        "I haven't done anything today.",
+        "I have stayed indoors all day.",
+        "‘I just sat on my sofa watching tv all day."
+    ],
+    "AmongUs":
+    [
+        "Are you the impostor?",
+        "Are you sus?"
+    ]
+}

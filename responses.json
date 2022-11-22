@@ -1,0 +1,66 @@
+{
+    "Greeting":
+    [
+        "Hi!",
+        "Hello!",
+        "Greetings!"
+    ],
+    "GreetingQuestion":
+    [
+        "I'm doing well. What's up?"
+    ],
+    "Name":
+    [
+        "Will take note of that",
+        "What a nice name!"
+    ],
+    "MNameY":
+    [
+        "Your name is "
+    ],
+    "MNameN":
+    [
+        "I don't know who you are... Who are you?",
+        "You haven't told me your name",
+        "What's your name?"
+    ],
+    "Weight":
+    [
+        "Note taken"
+    ],
+    "Height":
+    [
+        "Note taken"
+
+    ],
+    "Age":
+    [
+        "Note taken"
+    ],
+    "Exercise":
+    [
+        "You should run",
+        "You should swim",
+        "Maybe you could try out a ball sport... like football"
+    ],
+    "Laziness":
+    [
+        "You should get a move today!",
+        "Exercise then! It's healthy for you"
+    ],
+    "Goodbye":
+    [
+        "Toodles!",
+        "Bye!",
+        "Hasta la vista!"
+    ],
+    "AmongUs":
+    [
+        "I saw red vent"
+    ],
+    "None":
+    [
+        "I don't understand what you said...",
+        "Can you rephrase?"
+    ]
+}
